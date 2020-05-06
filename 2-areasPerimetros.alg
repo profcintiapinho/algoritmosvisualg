@@ -4,23 +4,23 @@ algoritmo "quadrado"
 // Data : 18/02/2020
 // Seção de Declarações 
 var
-lado, resp, resp2: real
+l, resp, resp2: real
 base,alt, result1, result2: real
 
 
 inicio
 //entrada
-escreval("Digite o tamanho do lado do quadrado, em centimetros: ")
-leia(lado)
+escreval("Dgite o tamanho do lado do quadr, em centimetros: ")
+leia(l)
 escreval("Digite a base do retangulo, em centimetros: ")
 leia(base)
-escreval("Digite a altura do retangulo, em centimetros: ")
+escreval("Digite a alt do retangulo, em centimetros: ")
 leia(alt)
 limpatela
 
 //processamento
-resp <-  lado^2
-resp2 <- lado*4
+resp <-  l^2
+resp2 <- l*4
 result1<- base*alt
 result2<- (base*2)+(alt*2)
 
